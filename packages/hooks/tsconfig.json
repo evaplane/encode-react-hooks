@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "composite": true,
+	"lib":["es2015", "dom"],
+	"types": ["node"]
+  }
+}
